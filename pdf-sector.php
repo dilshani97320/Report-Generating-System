@@ -32,7 +32,7 @@ class PDF_SECTOR extends FPDF
         $k = $this->k;
         $hp = $this->h;
         if (sin($d/2))
-            $MyArc = 4/3*(1-cos($d/2))/sin($d/2)*$r;
+            $MyArc = 4/3*(1-cos($d/2))/sin($d/2) * $r;
         else
             $MyArc = 0;
         //first put the center
